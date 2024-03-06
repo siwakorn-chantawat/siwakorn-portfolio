@@ -11,7 +11,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section>
+    <section id="home" className="scroll-mt-[100rem]" >
       <div className="block items-center justify-center">
         <div className="flex items-center justify-center ">
           <div className="relative">

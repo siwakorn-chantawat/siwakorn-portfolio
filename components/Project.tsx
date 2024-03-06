@@ -58,8 +58,8 @@ export const Project = ({
 
           <div className="flex justify-end  items-center my-2 mt-4 sm:justify-evenly">
             <a
-              className="bg-white flex px-6 py-4 text-gray-700  rounded-full
-         hover:text-white transition cursor-pointer hover:bg-gray-700"
+              className="bg-white flex px-6 py-4 text-gray-700 rounded-full
+         hover:text-white transition cursor-pointer hover:bg-gray-700 mr-4"
               href="https://github.com/siwakorn-chantawat"
               target="_blank"
             >
