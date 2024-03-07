@@ -13,7 +13,7 @@ export const useSectionInView = (
   const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
   useEffect(() => {
-    if (inView && Date.now() - timeOfLastClick > 300) {
+    if (inView && Date.now() - timeOfLastClick > 500) {
       setActiveSection(sectionName);
     }
   }, [inView, setActiveSection, timeOfLastClick, sectionName]);
