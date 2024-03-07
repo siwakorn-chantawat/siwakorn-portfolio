@@ -9,8 +9,10 @@ import {
 
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
+import { useSectionInView } from "@/lib/hook";
 
 export default function Experience() {
+  const { ref } = useSectionInView("Experience");
   return (
     <section id="experience" className="scroll-mt-28">
       <SectionHeading>My Experience</SectionHeading>
