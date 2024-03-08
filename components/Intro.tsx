@@ -10,10 +10,11 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hook";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { MdEmail } from "react-icons/md";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  // const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section ref={ref} id="home" className="scroll-mt-[100rem]">
       <div className="block items-center justify-center">
@@ -74,18 +75,18 @@ export default function Intro() {
         }}
         className="m-10 flex flex-col items-center justify-center gap-2 px-4 sm:flex-row "
       >
-        <Link
-          href="#contact"
+        <a
+          href="mailto:siwakorn.chantawat@gmail.com"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full text-lg font-medium
           outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-          onClick={() => {
-            setActiveSection("Contact");
-            setTimeOfLastClick(Date.now());
-          }}
+          // onClick={() => {
+          //   setActiveSection("Contact");
+          //   setTimeOfLastClick(Date.now());
+          // }}
         >
-          Contact Me
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link>
+          Email Me
+          <MdEmail className="opacity-70 group-hover:translate-x-1 transition" />
+        </a>
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full 

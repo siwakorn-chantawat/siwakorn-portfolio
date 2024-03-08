@@ -55,28 +55,27 @@ export const Project = ({
               {tag}
             </li>
           ))}
-
-          <div className="flex justify-end  items-center my-2 mt-4 sm:justify-evenly">
-            <a
-              className="bg-white flex px-6 py-4 text-gray-700 rounded-full
-         hover:text-white transition cursor-pointer hover:bg-gray-700 mr-4"
-              href="https://github.com/siwakorn-chantawat"
-              target="_blank"
-            >
-              <span className="text-sm pr-1">Code </span>
-              <FaGithubSquare className="text-xl" />
-            </a>
-            <a
-              className="bg-white flex px-6 py-4 text-gray-700  rounded-full
-            hover:text-white transition cursor-pointer hover:bg-gray-700"
-              href="https://github.com/siwakorn-chantawat"
-              target="_blank"
-            >
-              <span className="text-sm pr-1">Demo </span>
-              <MdOpenInNew className="text-xl" />
-            </a>
-          </div>
         </ul>
+        <div className="flex  items-center mt-4 sm:justify-evenly sm:mt-8">
+          <a
+            className="bg-white flex px-6 py-4 text-gray-700 rounded-full
+         hover:text-white transition cursor-pointer hover:bg-gray-700 mr-4"
+            href="https://github.com/siwakorn-chantawat"
+            target="_blank"
+          >
+            <span className="text-sm pr-1">Code </span>
+            <FaGithubSquare className="text-xl" />
+          </a>
+          <a
+            className="bg-white flex px-6 py-4 text-gray-700  rounded-full
+            hover:text-white transition cursor-pointer hover:bg-gray-700"
+            href="https://github.com/siwakorn-chantawat"
+            target="_blank"
+          >
+            <span className="text-sm pr-1">Demo </span>
+            <MdOpenInNew className="text-xl" />
+          </a>
+        </div>
       </div>
 
       <Image
