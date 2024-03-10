@@ -36,13 +36,6 @@ export const About = () => {
         <span className="font-medium">full-time position</span> as a Frontend
         Developer.
       </p>
-
-      <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
-        playing video games and watching movies. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about <span className="font-medium">video editing</span>.
-      </p>
     </motion.section>
   );
 };
