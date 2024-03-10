@@ -57,7 +57,7 @@ export default function Intro() {
           className="flex flex-col items-center justify-center m-6"
         >
           <p className="font-medium text-lg leading-[1.5] text-gray-500 dark:text-white/50">
-            Hello, I'm
+            Hello, I&apos;m
           </p>
           <h1 className="font-extrabold text-2xl min-[390px]:text-3xl min-[580px]:text-4xl dark:text-white">
             Siwakorn Chantawat
