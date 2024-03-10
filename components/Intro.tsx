@@ -78,7 +78,7 @@ export default function Intro() {
         <a
           href="mailto:siwakorn.chantawat@gmail.com"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full text-lg font-medium
-          outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition  dark:bg-white/10 dark:text-white"
           // onClick={() => {
           //   setActiveSection("Contact");
           //   setTimeOfLastClick(Date.now());
