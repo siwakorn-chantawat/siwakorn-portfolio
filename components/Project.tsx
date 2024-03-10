@@ -14,6 +14,8 @@ export const Project = ({
   description,
   tags,
   imageUrl,
+  githubUrl,
+  demoUrl,
 }: ProjectProps) => {
   const ref = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
@@ -26,14 +28,14 @@ export const Project = ({
   return (
     <motion.section
       ref={ref}
-      // style={{
-      //   scale: scaleProgess,
-      //   opacity: opacityProgess,
-      // }}
+      style={{
+        scale: scaleProgess,
+        opacity: opacityProgess,
+      }}
       className="group bg-gray-100 max-w-[42rem] 
     border border-black/5 overflow-hidden sm:pr-8 relative
     sm:h-[24rem] mb-3 sm:mb-8 last:mb-0 sm:even:pl-8
-    hover:bg-gray-200 transition"
+    hover:bg-gray-200 transition dark:text-white dark:bg-white/10"
     >
       <div
         className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 
@@ -42,14 +44,14 @@ export const Project = ({
         <h3 className="text-2xl font-semibold">{title}</h3>
         <p
           className="mt-2 leading-relaxed
-        text-gray-700"
+        text-gray-700 dark:text-white/70"
         >
           {description}
         </p>
         <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
           {tags.map((tag, index) => (
             <li
-              className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
+              className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
               key={index}
             >
               {tag}
@@ -59,8 +61,8 @@ export const Project = ({
         <div className="flex  items-center mt-4 sm:justify-evenly sm:mt-8">
           <a
             className="bg-white flex px-6 py-4 text-gray-700 rounded-full
-         hover:text-white transition cursor-pointer hover:bg-gray-700 mr-4"
-            href="https://github.com/siwakorn-chantawat"
+         hover:text-white transition cursor-pointer hover:bg-gray-700 mr-2 dark:bg-black/30 dark:hover:bg-white/90 dark:text-white/90 dark:hover:text-black/80"
+            href={githubUrl}
             target="_blank"
           >
             <span className="text-sm pr-1">Code </span>
@@ -68,8 +70,8 @@ export const Project = ({
           </a>
           <a
             className="bg-white flex px-6 py-4 text-gray-700  rounded-full
-            hover:text-white transition cursor-pointer hover:bg-gray-700"
-            href="https://github.com/siwakorn-chantawat"
+            hover:text-white transition cursor-pointer hover:bg-gray-700  dark:bg-black/30  dark:hover:bg-white/90 dark:text-white/90 dark:hover:text-black/80"
+            href={demoUrl}
             target="_blank"
           >
             <span className="text-sm pr-1">Demo </span>

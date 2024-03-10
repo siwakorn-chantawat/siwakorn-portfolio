@@ -56,13 +56,13 @@ export default function Intro() {
           animate={{ opacity: 1, y: 0 }}
           className="flex flex-col items-center justify-center m-6"
         >
-          <p className="font-medium text-lg leading-[1.5] text-gray-500">
+          <p className="font-medium text-lg leading-[1.5] text-gray-500 dark:text-white/50">
             Hello, I'm
           </p>
-          <h1 className="font-extrabold text-2xl min-[390px]:text-3xl min-[580px]:text-4xl">
+          <h1 className="font-extrabold text-2xl min-[390px]:text-3xl min-[580px]:text-4xl dark:text-white">
             Siwakorn Chantawat
           </h1>
-          <h3 className="font-bold text-xl sm:text-2xl  text-gray-500">
+          <h3 className="font-bold text-xl sm:text-2xl  text-gray-500 dark:text-white/50">
             Frontend Developer
           </h3>
         </motion.div>
@@ -91,18 +91,18 @@ export default function Intro() {
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full 
         outline-none focus:scale-110 hover:scale-110 active:scale-105 transition
-        cursor-pointer borderBlack"
+        cursor-pointer borderBlack dark:bg-white/10 dark:text-white "
           href="/CV.pdf"
           download
         >
           Download CV
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition " />
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full
           outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition
-          cursor-pointer borderBlack max-[639px]:px-20"
+          cursor-pointer borderBlack max-[639px]:px-20 dark:bg-white/10 dark:text-white "
           href="https://linkedin.com/in/siwakorn-chantawat"
           target="_blank"
         >
@@ -112,7 +112,7 @@ export default function Intro() {
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full
         outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition
-        cursor-pointer borderBlack max-[639px]:px-20"
+        cursor-pointer borderBlack max-[639px]:px-20 dark:bg-white/10 dark:text-white "
           href="https://github.com/siwakorn-chantawat"
           target="_blank"
         >
