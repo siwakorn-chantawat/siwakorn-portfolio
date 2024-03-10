@@ -8,11 +8,11 @@ import { useSectionInView } from "@/lib/hook";
 import { sendEmail } from "@/actions/sendEmail";
 
 export default function Contact() {
-  const { ref } = useSectionInView("Contact");
+  // const { ref } = useSectionInView("Contact");
 
   return (
     <motion.section
-      ref={ref}
+      // ref={ref}
       id="contact"
       className="scroll-mt-28 mb-20 sm:mb-28 w-[min(100%,38rem)]
       text-center"
