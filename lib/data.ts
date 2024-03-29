@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 // รูปโปรเจค
-import skooldio from "@/public/skooldioproject.png";
+import skooldio from "@/public/skooldio.png";
 
 export const links = [
   {
