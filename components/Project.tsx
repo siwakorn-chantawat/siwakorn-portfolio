@@ -60,15 +60,6 @@ export const Project = ({
         </ul>
         <div className="flex  items-center mt-4 sm:justify-evenly sm:mt-8">
           <a
-            className="bg-white flex px-6 py-4 text-gray-700 rounded-full
-         hover:text-white transition cursor-pointer hover:bg-gray-700 mr-2 dark:bg-black/30 dark:hover:bg-white/90 dark:text-white/90 dark:hover:text-black/80"
-            href={githubUrl}
-            target="_blank"
-          >
-            <span className="text-sm pr-1">Code </span>
-            <FaGithubSquare className="text-xl" />
-          </a>
-          <a
             className="bg-white flex px-6 py-4 text-gray-700  rounded-full
             hover:text-white transition cursor-pointer hover:bg-gray-700  dark:bg-black/30  dark:hover:bg-white/90 dark:text-white/90 dark:hover:text-black/80"
             href={demoUrl}
@@ -76,6 +67,15 @@ export const Project = ({
           >
             <span className="text-sm pr-1">Demo </span>
             <MdOpenInNew className="text-xl" />
+          </a>
+          <a
+            className="bg-white flex px-6 py-4 text-gray-700 rounded-full
+         hover:text-white transition cursor-pointer hover:bg-gray-700 mr-2 dark:bg-black/30 dark:hover:bg-white/90 dark:text-white/90 dark:hover:text-black/80"
+            href={githubUrl}
+            target="_blank"
+          >
+            <span className="text-sm pr-1">Code </span>
+            <FaGithubSquare className="text-xl" />
           </a>
         </div>
       </div>
