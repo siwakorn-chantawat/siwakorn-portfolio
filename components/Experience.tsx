@@ -37,16 +37,15 @@ export default function Experience() {
                     ? "0.4rem solid #9ca3af"
                     : "0.4rem solid rgba(255,255,255,0.5)",
               }}
-              date={item.date}
+              // date={item.date}
               icon={item.icon}
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgba(255,255,255, 0.15)",
-                fontSize: "1.5rem",
               }}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <p className="font-normal !mt-0">{item.date}</p>
               <p
                 className="!mt-1 !font-normal text-gray-700
               dark:text-white/75"

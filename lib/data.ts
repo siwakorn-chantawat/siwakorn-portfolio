@@ -1,11 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 // รูปโปรเจค
 import skooldio from "@/public/skooldio.png";
 import doctorqclinic from "@/public/doctorqclinic.png"
+import { MdWorkOutline } from "react-icons/md";
 
 export const links = [
   {
@@ -35,6 +34,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Frontend Developer",
+    location: "Bangkok, Thailand",
+    description:
+    "Working as a Freelancer",
+    icon: React.createElement(MdWorkOutline),
+    date: "2024 - Now",
+  },
   {
     title: "Skooldio WDB #1",
     location: "Bangkok, Thailand",
