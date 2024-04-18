@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 
 // รูปโปรเจค
 import skooldio from "@/public/skooldio.png";
+import doctorqclinic from "@/public/doctorqclinic.png"
 
 export const links = [
   {
@@ -50,11 +51,20 @@ export const projectsData = [
     title: "E-commerce Project",
     description:
       "This is an E-commerce Website group project from Skooldio Web Development Bootcamp#1.",
-    tags: ["React", "shadcn/ui", "Tailwind"],
+    tags: ["React", "Shadcn/UI", "Tailwind"],
     imageUrl: skooldio, //import img
     githubUrl: "https://github.com/siwakorn-chantawat/m4-project-sandbox",
     demoUrl: "https://wdb-skooldio-project-tawny.vercel.app/",
   },
+  {
+    title: "Doctor Q Clinic",
+    description:
+"A static website. This represents my work as a freelancer, currently undergoing development to meet specific customer requirements.",
+tags: ["Next 14" , "Tailwind" , "Shadcn/UI"],
+imageUrl: doctorqclinic,
+githubUrl: "https://github.com/siwakorn-chantawat/doctorq" ,
+demoUrl: "https://doctorq.vercel.app/"
+  }
 ] as const;
 
 export const skillsData = [
