@@ -38,7 +38,7 @@ export const Project = ({
     hover:bg-gray-200 transition dark:text-white dark:bg-white/10"
     >
       <div
-        className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 
+        className="pt-4 pb-7 px-5 sm:pl-8 sm:pr-1 sm:pt-10 
       sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]"
       >
         <h3 className="text-2xl font-semibold">{title}</h3>
@@ -58,7 +58,7 @@ export const Project = ({
             </li>
           ))}
         </ul>
-        <div className="flex  items-center mt-4 sm:justify-evenly sm:mt-8">
+        <div className="flex gap-2 items-center mt-4 sm:justify-evenly sm:mt-8">
           <a
             className="bg-white flex px-6 py-4 text-gray-700  rounded-full
             hover:text-white transition cursor-pointer hover:bg-gray-700  dark:bg-black/30  dark:hover:bg-white/90 dark:text-white/90 dark:hover:text-black/80"
