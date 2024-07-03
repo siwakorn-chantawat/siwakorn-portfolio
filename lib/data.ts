@@ -3,7 +3,7 @@ import { LuGraduationCap } from "react-icons/lu";
 
 // รูปโปรเจค
 import skooldio from "@/public/skooldio.png";
-import doctorqclinic from "@/public/doctorqclinic.png"
+import doctorqclinic from "@/public/doctorqclinic.png";
 import { MdWorkOutline } from "react-icons/md";
 
 export const links = [
@@ -37,8 +37,7 @@ export const experiencesData = [
   {
     title: "Frontend Developer",
     location: "Bangkok, Thailand",
-    description:
-    "Working as a Freelancer",
+    description: "Working as a Freelancer",
     icon: React.createElement(MdWorkOutline),
     date: "2024 - Now",
   },
@@ -66,12 +65,16 @@ export const projectsData = [
   {
     title: "Doctor Q Clinic",
     description:
-"A static website. This represents my work as a freelancer, currently undergoing development to meet specific customer requirements.",
-tags: ["Next 14" , "Tailwind" , "Shadcn/UI"],
-imageUrl: doctorqclinic,
-githubUrl: "https://github.com/siwakorn-chantawat/doctorq" ,
-demoUrl: "https://doctorq.vercel.app/"
-  }
+      "A static website. This represents my work as a freelancer, currently undergoing development to meet specific customer requirements.",
+    tags: ["Next 14", "Tailwind", "Shadcn/UI"],
+    imageUrl: doctorqclinic,
+    githubUrl: "https://github.com/siwakorn-chantawat/doctorq",
+    demoUrl: "https://doctorq.vercel.app/",
+  },
+  // {
+  //   title: "Frontend Mentor #1",
+
+  // }
 ] as const;
 
 export const skillsData = [
@@ -84,4 +87,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Framer Motion",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
 ] as const;
